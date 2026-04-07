@@ -15,9 +15,9 @@ export default function Navbar() {
 
   return (
     
-      <div className="sticky top-0 z-100 w-full">
-      <header className="container max-w-[1440px] mx-auto px-4 flex justify-between items-center p-4">
-      
+      <div className="top-0 z-100 w-full">
+      <header className="flex justify-between items-center py-4">
+      <div className="bg-gray-100 w-[60%] flex items-center justify-between flex-row h-full pr-30">
         <div className=" text-2xl font-bold hover:text-[#00cc99]">
           <h2><Link href="/">JobNow</Link></h2>
         </div>
@@ -25,7 +25,7 @@ export default function Navbar() {
         <div 
           className="md:hidden absolute top-5 right-5 text-[20px] cursor-pointer"
           onClick={() => setActive(true)}
-        >
+        > 
           ☰
         </div>
         <nav
@@ -46,12 +46,24 @@ export default function Navbar() {
             <li className={`hover:text-[#00cc99] ${linkUndeline("/job")}`}><Link href="/job">Job</Link></li>
             <li className={`hover:text-[#00cc99] ${linkUndeline("/aboutus")}`}><Link href="/aboutus">About Us</Link></li>
             <li className={`hover:text-[#00cc99] ${linkUndeline("/contact")}`}><Link href="/contact">Contact</Link></li>
-            <li className={`hover:text-[#00cc99] text-white ${linkUndeline("/signin")}`}><Link href="/signin">sign in</Link></li>
-            <li className={` bg-white rounded-sm p-2 hover:text-[#132c26] ${linkUndeline("/create")}`}><Link href="/create">Create Account</Link></li>
           </ul>
-
         </nav>  
-    
+    </div>
+    <div className="bg-[#00cc99] w-[40%] flex items-center justify-end flex-row h-full">
+      <ul className="flex gap-2.5 list-none items-center">
+    <li className={`hover:text-[#00cc99] text-white ${linkUndeline("/signin")}`}>
+      <Link href="/signin">Sign in</Link>
+    </li>
+    <li>
+      <Link
+        href="/create"
+        className={`bg-white rounded-sm px-4 py-2 flex items-center justify-center hover:text-[#132c26] ${linkUndeline("/create")}`}
+      >
+        Create Account
+      </Link>
+    </li>
+  </ul>
+    </div>
       </header> 
       </div>  
       
