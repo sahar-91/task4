@@ -2,9 +2,9 @@ import SearchBar from "./searchBar";
 
 export default function Banner() {
     return (
-    <div className="bg-gradient-to-r from-gray-100 from-70% to-[#00cc99] w-full h-full">
+    <div className="bg-gradient-to-r from-gray-100 from-40% to-[#00cc99] w-full h-full">
       <div className="container mx-auto max-w-[1440px]">
-    <div className= "bg-gray-100 top-0 z-50 h-173.25 -mt-[80px]">
+    <div className= "bg-gray-100 top-0 z-50 h-173.25">
         
         <div className="flex flex-row h-173.25 gap-6 items-center">
             <div className="max-w-[60%] align-center mx-auto">

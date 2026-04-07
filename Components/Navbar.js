@@ -15,11 +15,11 @@ export default function Navbar() {
     }`;
 
   return (
-    <div className="z-0 bg-gradient-to-r from-gray-100 from-70% to-[#00cc99] w-full h-full">
+    <div className="z-0 bg-gradient-to-r from-gray-100 from-30% to-[#00cc99] w-full ">
       <div className="container mx-auto max-w-[1440px]">
-      <div className="top-0 z-100 w-full h-full">
-      <header className="flex justify-between items-center py-4">
-      <div className="bg-gray-100 w-[60%] flex items-center justify-between flex-row h-full pr-30">
+      
+      <header className="flex justify-between items-center">
+      <div className="bg-gray-100 w-[60%] flex items-center justify-between flex-row h-16 pr-30">
         <div className=" text-2xl font-bold hover:text-[#00cc99]">
           <h2><Link href="/">JobNow</Link></h2>
         </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
           </ul>
         </nav>  
     </div>
-    <div className="bg-[#00cc99] w-[40%] flex items-center justify-end flex-row h-full">
+    <div className="bg-[#00cc99] w-[40%] flex items-center justify-end flex-row h-16">
       <ul className="flex gap-2.5 list-none items-center">
     <li className={`hover:text-[#00cc99] text-white z-50 ${linkUndeline("/signin")}`}>
       <Link href="/signin">Sign in</Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
       </header> 
       </div>  
       </div>
-      </div>
+      
       
   );
 }
