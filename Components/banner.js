@@ -2,13 +2,13 @@ import SearchBar from "./searchBar";
 
 export default function Banner() {
     return (
-    <div className="bg-gradient-to-b from-white md:bg-gradient-to-r md:from-gray-100 from-40% to-[#00cc99] w-full h-full md:h-125">
-      <div className="container mx-auto max-w-[1440px]  px-8">
+    <div className="bg-gradient-to-b from-white to-[#00cc99] md:bg-gradient-to-r from-gray-100 from-[0%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full h-full md:h-125">
+      <div className="container mx-auto  px-8">
     <div className= "bg-white md:bg-gray-100 z-50 h-full md:h-125">
         
         <div className="flex flex-col md:flex-row md:h-125 gap-6 items-center align-center">
             <div className="w-full md:max-w-[60%] align-center mx-auto py-20">
-        <div className="text-center md:text-start p-4 h-full">
+        <div className="text-center md:text-start h-full">
             <h1 className="text-3xl font-bold mb-4">Search, Find, & Apply</h1>
             <p className="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         

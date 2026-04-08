@@ -6,22 +6,18 @@ import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
-  const pathname = usePathname();
-  const linkUndeline = (path) =>
-    `hover:text-[#00cc99] ${
-      pathname === path ? "underline text-[#00cc99]" : ""
-    }`;
+
 
     const authButtons = (
   <ul className="flex gap-2.5 list-none items-center md:flex-row flex-col">
-    <li className={`hover:text-[#00cc99] text-white ${linkUndeline("/signin")}`}>
+    <li className="hover:bg-white hover:text-[#00cc99] rounded-sm p-2 md:text-white transition duration-300">
       <Link href="/signin" onClick={() => setActive(false)}>Sign in</Link>
     </li>
     <li>
       <Link
         href="/create"
         onClick={() => setActive(false)}
-        className={`bg-white rounded-sm px-4 py-2 flex items-center justify-center ${linkUndeline("/create")}`}
+        className="bg-white rounded-sm gap-2 p-2 flex items-center justify-center"
       ><img src="https://img.icons8.com/ios/windows/bold/enter-2.png" className="w-4 h-4 mr-1" alt="Create Account Icon" />
          Create Account
       </Link>
@@ -30,11 +26,11 @@ export default function Navbar() {
 );
 
   return (
-    <div className="z-0 bg-gray-100 md:bg-gradient-to-r from-gray-100 from-30% to-[#00cc99] w-full">
-      <div className="container mx-auto max-w-[1440px] px-8">
+    <div className=" bg-gray-100 md:bg-gradient-to-r from-gray-100 from-[0%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full">
+      <div className="container mx-auto px-8">
       
-      <header className="flex justify-between items-center">
-      <div className="bg-gray-100 w-full md:w-[60%] flex items-center justify-center md:justify-between md:flex-row h-16 md:pr-30">
+      <header className="flex justify-between items-center ">
+      <div className="bg-gray-100 py-7 w-full md:w-[60%] flex items-center justify-center md:justify-between md:flex-row md:pr-30">
         <div className=" text-2xl font-bold hover:text-[#00cc99]">
           <h2><Link href="/">Job<span className="text-[#00cc99]">NQw</span></Link></h2>
         </div>
@@ -58,18 +54,18 @@ export default function Navbar() {
           >
             x
           </div>
-          <ul className="flex gap-2.5 list-none md:flex-row flex-col font-bold">
-            <li className={`hover:text-[#00cc99] ${linkUndeline("/")}`}><Link href="/">Home</Link></li>
-            <li className={`hover:text-[#00cc99] ${linkUndeline("/job")}`}><Link href="/job">Job</Link></li>
-            <li className={`hover:text-[#00cc99] ${linkUndeline("/aboutus")}`}><Link href="/aboutus">About Us</Link></li>
-            <li className={`hover:text-[#00cc99] ${linkUndeline("/contact")}`}><Link href="/contact">Contact</Link></li>
+          <ul className="flex text-center gap-2.5 list-none md:flex-row flex-col font-bold gap-7">
+            <li className="hover:text-[#00cc99]"><Link href="/">Home</Link></li>
+            <li className="hover:text-[#00cc99]"><Link href="/job">Job</Link></li>
+            <li className="hover:text-[#00cc99]"><Link href="/aboutus">About Us</Link></li>
+            <li className="hover:text-[#00cc99]"><Link href="/contact">Contact</Link></li>
           </ul>
           <div className="md:hidden mt-6">
              {authButtons}
           </div>
         </nav>  
     </div>
-    <div className="bg-[#00cc99] w-[40%] hidden md:flex items-center justify-end flex-row h-16 font-bold">
+    <div className="bg-[#00cc99] w-[40%] hidden md:flex items-center justify-end flex-row font-bold py-6">
     {authButtons}
     </div>
       </header> 
