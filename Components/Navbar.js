@@ -26,8 +26,8 @@ export default function Navbar() {
 );
 
   return (
-    <div className=" bg-gray-100 md:bg-gradient-to-r from-gray-100 from-[0%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full">
-      <div className="container mx-auto px-8">
+    <div className=" bg-gray-100 md:bg-gradient-to-r from-gray-100 from-[40%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full">
+      <div className="container mx-auto">
       
       <header className="flex justify-between items-center ">
       <div className="bg-gray-100 py-7 w-full md:w-[60%] flex items-center justify-center md:justify-between md:flex-row md:pr-30">
