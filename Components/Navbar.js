@@ -29,8 +29,8 @@ export default function Navbar() {
     <div className=" bg-gray-100 md:bg-gradient-to-r from-gray-100 from-[40%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full">
       <div className="container mx-auto">
       
-      <header className="flex justify-between items-center ">
-      <div className="bg-gray-100 py-7 w-full md:w-[60%] flex items-center justify-center md:justify-between md:flex-row md:pr-30">
+      <header className="flex justify-between items-center">
+      <div className="bg-gray-100 py-7 w-full md:w-[60%] flex items-center justify-center md:justify-between md:flex-row pl-8 md:pr-30">
         <div className=" text-2xl font-bold hover:text-[#00cc99]">
           <h2><Link href="/">Job<span className="text-[#00cc99]">NQw</span></Link></h2>
         </div>
