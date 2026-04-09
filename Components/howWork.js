@@ -7,7 +7,7 @@ export default function HowWork() {
     {title: "Apply job", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", image: "https://img.icons8.com/ios/00cc99/job.png"}
     ];
     return (
-        <div className="bg-white flex items-center">
+        <div className="bg-[#fbfbfb] flex items-center">
       <div className="container mx-auto py-20 px-8">
             <div className="font-bold text-3xl">How it works</div>
                 <div className="flex md:flex-row flex-col gap-6 mt-6 mb-20 justify-between align-center">

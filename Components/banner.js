@@ -4,7 +4,7 @@ export default function Banner() {
     return (
     <div className="md:bg-gradient-to-r from-gray-100 from-[40%] via-gray-200 via-[60%] to-[#00cc99] to-[65%] w-full h-full md:h-125">
       <div className="container mx-auto">
-    <div className= "bg-white md:bg-gray-100 z-50 h-full md:h-125 ">
+    <div className= "bg-[#fbfbfb] md:bg-gray-100 z-50 h-full md:h-125 ">
         
         <div className="flex flex-col md:flex-row md:h-125 gap-6 items-center align-center">
             <div className="w-full md:max-w-[60%] align-center mx-auto p-8">
