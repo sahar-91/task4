@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HowWork from "@/Components/howWork";
 import WeWillHelp from "@/Components/weWillHelp";
+import Popular from "@/Components/Popular";
 
 export default function Homepage() {
 return (
@@ -14,6 +15,7 @@ return (
         
         <HowWork />
         <WeWillHelp/>
+        <Popular/>
       
     </>
     
