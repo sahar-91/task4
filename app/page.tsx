@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HowWork from "@/Components/howWork";
+import WeWillHelp from "@/Components/weWillHelp";
 
 export default function Homepage() {
 return (
@@ -12,6 +13,7 @@ return (
       </Head>
         
         <HowWork />
+        <WeWillHelp/>
       
     </>
     
