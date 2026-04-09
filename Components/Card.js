@@ -1,7 +1,7 @@
 export default function Card({array}) {
     return ( 
     
-        <div className="flex items-center flex-col md:flex-row gap-6">
+        <div className="grid items-center grid-cols-2 md:grid-rows-1 gap-6">
             {array.map((item, index) => (
                 <div key={index}>
                     <img src={item.image} alt={item.title} className="w-10 h-10 mb-4" />

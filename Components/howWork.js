@@ -8,10 +8,10 @@ export default function HowWork() {
     ];
     return (
         <div className="bg-white flex items-center">
-      <div className="container mx-auto py-10">
+      <div className="container mx-auto py-20">
             <div className="font-bold text-3xl">How it works</div>
                 <div className="flex md:flex-row flex-col gap-6 mt-6 mb-20 justify-between align-center">
-                <p className="text-[#8A8A8A] w-186">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <p className="text-[#8A8A8A] max-w-[60%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                 <button className="bg-white border-[#00cc99] border-2 cursor-pointer h-10 px-6 text-[#00cc99] rounded hover:bg-[#00b386] hover:text-white transition duration-300">Learn More</button>
                 </div>
             <Card array={array} />
