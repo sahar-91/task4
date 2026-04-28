@@ -21,7 +21,7 @@ export default function PopularCard({ array }) {
             <div className="group">
               <div className="bg-white relative h-[220px] rounded-[20px] p-6 group-hover:text-white cursor-pointer group-hover:bg-[#00cc99] transition duration-300 flex flex-col items-start">
                 
-                <img src={item.image} alt={item.title} className="w-10 h-10 mb-4" />
+                <img src={item.image} alt={item.title} className="w-10 h-10 mb-4 transition duration-300 group-hover:brightness-0 group-hover:invert" />
 
                 <h3 className="text-sm md:text-xl font-bold mb-2 line-clamp-3 ">{item.title}</h3>
 
