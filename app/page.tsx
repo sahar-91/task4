@@ -2,6 +2,7 @@ import Head from "next/head";
 import HowWork from "@/Components/howWork";
 import WeWillHelp from "@/Components/weWillHelp";
 import Popular from "@/Components/Popular";
+import RecentlJobs from "@/Components/RecentlyAdded";
 
 export default function Homepage() {
 return (
@@ -16,6 +17,7 @@ return (
         <HowWork />
         <WeWillHelp/>
         <Popular/>
+        <RecentlJobs/>
       
     </>
     
