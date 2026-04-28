@@ -19,7 +19,7 @@ const array = [
         <p className="text-[#8A8A8A] text-center m-4 max-w-[600px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-
+      
         <PopularCard array={array} />
 
         <button className="border-[#00cc99] border-2 cursor-pointer h-10 px-6 text-[#00cc99] rounded hover:bg-[#00b386] hover:text-white transition duration-300 mt-6">
