@@ -16,13 +16,13 @@ export default function FeedBack({ persons }) {
     <div className="container mx-auto pt-20 pb-5 px-8">
       <h1 className="font-bold text-3xl mb-4 text-center md:text-left">People's Feedback about JobNow!</h1>
       
-      <div className="flex flex-col md:flex-row items-center md:items-stretch gap-12">
+      <div className="flex flex-col md:flex-row items-center md:items-stretch gap-15">
         <div className="flex-1 flex flex-col justify-center text-center md:text-left order-1">
           <p className="text-[#8a8a8a] mb-8">{current.text}</p>
-          <p className="font-semibold mb-8 text-lg">"{current.quote}"</p>
+          <p className="font-semibold mb-8 text-xl">"{current.quote}"</p>
           
           <div className="hidden md:block mb-8">
-            <p className="font-bold mb-2">{current.name}</p>
+            <p className="font-bold mb-2 text-lg">{current.name}</p>
             <p className="text-[#8a8a8a] text-sm">{current.role}</p>
           </div>
 
@@ -54,8 +54,8 @@ export default function FeedBack({ persons }) {
         <div className="flex-1 w-full order-2">
           <img 
             src={current.image} 
-            alt={current.name}
-            className="w-full h-[300px] md:h-[474px] object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
+            
+            className="w-full h-full object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
           />
         </div>
 
