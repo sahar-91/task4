@@ -3,6 +3,7 @@ import HowWork from "@/Components/howWork";
 import WeWillHelp from "@/Components/weWillHelp";
 import Popular from "@/Components/Popular";
 import RecentlJobs from "@/Components/RecentlyAdded";
+import FeedBackArray from "@/Components/FeedBackArray";
 
 export default function Homepage() {
 return (
@@ -18,6 +19,8 @@ return (
         <WeWillHelp/>
         <Popular/>
         <RecentlJobs/>
+
+        <FeedBackArray/>
       
     </>
     
