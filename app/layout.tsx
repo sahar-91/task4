@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/banner";
+import Footer from "@/Components/Footer";
 
 
 
@@ -35,7 +36,7 @@ export default function RootLayout({
         <Navbar />
         <Banner />
         <main className="flex-1">{children}</main>
-        
+        <Footer/>
       </body>
     </html>
 
