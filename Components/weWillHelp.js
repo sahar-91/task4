@@ -2,7 +2,7 @@ export default function WeWillHelp() {
     return (
         <div className="bg-[#fbfbfb]">
             <div className="container mx-auto">
-                <div className="flex md:flex-row flex-col gap-10 mt-10 mb-20 justify-between text-center md:text-start items-center p-8">
+                <div className="flex md:flex-row flex-col gap-10 mt-10 mb-20 justify-between text-center md:text-start items-center py-8 px-5 md:px-8">
                     <img src="https://www.solidbackgrounds.com/images/950x350/950x350-gray-solid-color-background.jpg" alt="image" className="md:w-[504px] md:h-[370px] h-[210px] rounded-[20px] object-cover" />
                     <div className="w-full">
                         <h2 className="text-2xl font-bold mb-4">We will help you become an employee in your dream company</h2>

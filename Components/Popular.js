@@ -14,7 +14,7 @@ const array = [
 
   return (
     <div className="bg-[#00cc99]/[0.051] h-auto py-10">
-      <div className="flex items-center flex-col p-8">
+      <div className="flex items-center flex-col py-8 px-5 md:px-8">
         <h2 className="text-2xl font-bold text-center pt-10">Popular Job Categories</h2>
         <p className="text-[#8A8A8A] text-center m-4 max-w-[600px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

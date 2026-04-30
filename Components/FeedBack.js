@@ -13,15 +13,15 @@ export default function FeedBack({ persons }) {
   const current = persons[index];
 
   return (
-    <div className="container mx-auto pt-20 pb-5 px-8">
+    <div className="container mx-auto pt-20 pb-5 px-5 md:px-8">
       <h1 className="font-bold text-3xl mb-4 text-center md:text-left">People's Feedback about JobNow!</h1>
       
-      <div className="flex flex-col md:flex-row items-center md:items-stretch gap-15">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-15">
         <div className="flex-1 flex flex-col justify-center text-center md:text-left order-1">
           <p className="text-[#8a8a8a] mb-8">{current.text}</p>
           <p className="font-semibold mb-8 text-xl">"{current.quote}"</p>
           
-          <div className="hidden md:block mb-8">
+          <div className="hidden md:block mb-6">
             <p className="font-bold mb-2 text-lg">{current.name}</p>
             <p className="text-[#8a8a8a] text-sm">{current.role}</p>
           </div>
@@ -55,7 +55,7 @@ export default function FeedBack({ persons }) {
           <img 
             src={current.image} 
             
-            className="w-full h-full object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
+            className="w-46.75 h-45.75 md:w-121 md:h-118.5 object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
           />
         </div>
 

@@ -6,7 +6,7 @@ export default function Footer() {
     
       <RegisterCard />
 
-      <div className="container mx-auto grid grid-cols-1 gap-10 px-8 md:grid-cols-4 text-white">
+      <div className="container mx-auto grid grid-cols-1 gap-10 px-5 md:px-8 md:grid-cols-4 text-white">
         
        
         <div className=" flex flex-col items-start justify-center">
