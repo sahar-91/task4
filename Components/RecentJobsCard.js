@@ -10,7 +10,7 @@ export default function RecentJobsCard({ array }) {
         spaceBetween={25}        
         grabCursor={true}        
         slidesPerView={1.2}
-        slidesOffsetBefore={32}
+        
         breakpoints={{
           640: { slidesPerView: 2.2 },
           768: { slidesPerView: 2.75 },

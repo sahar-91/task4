@@ -10,7 +10,7 @@ export default function PopularCard({ array }) {
         spaceBetween={25}        
         grabCursor={true}        
         slidesPerView={2.2}
-        slidesOffsetBefore={32}
+        
         breakpoints={{
           640: { slidesPerView: 3.2 },
           768: { slidesPerView: 4.2 },
