@@ -29,11 +29,11 @@ export default function RecentJobsCard({ array }) {
 
                 <p className="text-[#8a8a8a] text-sm">{item.content}</p>
                 <div className="flex fex-row items-center gap-2 my-2">
-                    <div className="bg-[#f9f9f9] rounded-[10px] font-semibold flex row items-center py-1 px-4 gap-1 text-sm">
+                    <div className="bg-[#f9f9f9] rounded-[10px] font-semibold flex row items-center py-2 px-2 gap-1 text-xs">
                         <img src="https://img.icons8.com/ios/marker--v1.png" alt="Location Icon" className="w-4 h-4 mr-1" />
                         {item.location}
                     </div>
-                    <div className="bg-[#f9f9f9] rounded-[10px] font-semibold flex row items-center py-1 px-4 gap-1 text-sm">
+                    <div className="bg-[#f9f9f9] rounded-[10px] font-semibold flex row items-center py-2 px-2 gap-1 text-xs">
                         <img src="https://img.icons8.com/fluency-systems-regular/48/briefcase.png" alt="briefcase Icon" className="w-4 h-4 ml-2" />
                         {item.type}
                     </div>

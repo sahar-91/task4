@@ -1,6 +1,6 @@
 export default function RegisterCard() {
   return (
-    <div className="bg-[#003a2c] text-white rounded-[20px] p-8 md:p-12 text-center shadow-2xl w-full">
+    <div className="bg-[#003a2c] text-white rounded-[20px] p-8 md:p-12 text-center w-full">
       <h2 className="text-2xl md:text-4xl font-bold mb-4">
         Register your CV now!
       </h2>
