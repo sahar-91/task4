@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <footer className="relative bg-[#00cc99] mt-50 pt-48 pb-12">
     
-      <RegisterCard />
+     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1280px] px-5 md:px-8">
+        <RegisterCard />
+      </div>
 
       <div className="container mx-auto grid grid-cols-1 gap-10 px-5 md:px-8 md:grid-cols-5 text-white">
         

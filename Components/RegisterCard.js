@@ -1,6 +1,7 @@
 export default function RegisterCard() {
   return (
-    <div className="absolute top-0 left-0 right-0 mx-12 -translate-y-1/2 bg-[#003a2c] text-white rounded-[20px] p-8 md:p-12 text-center z-10">
+   
+    <div className="relative -translate-y-1/2 bg-[#003a2c] text-white rounded-[20px] p-8 md:p-12 text-center z-10 w-full">
       <h2 className="text-2xl md:text-4xl font-bold mb-4">Register your CV now!</h2>
       <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-sm md:text-base">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -9,5 +10,6 @@ export default function RegisterCard() {
         Register Now
       </button>
     </div>
+  
   );
 }
