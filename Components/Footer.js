@@ -6,62 +6,84 @@ export default function Footer() {
     
       <RegisterCard />
 
-      <div className="container mx-auto grid grid-cols-1 gap-10 px-5 md:px-8 md:grid-cols-4 text-white">
+      <div className="container mx-auto grid grid-cols-1 gap-10 px-5 md:px-8 md:grid-cols-5 text-white">
         
        
-        <div className=" flex flex-col items-start justify-center">
+        <div className=" col-span-2 flex flex-col items-start justify-center">
+          <a href="#" className="cursor-pointer">
           <h3 className="text-3xl font-extrabold mb-2"><span className="text-black">Job</span>NQw</h3>
-          <p className="text-sm text-white">
+          </a>
+          <p className="text-sm text-white max-w-[60%]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  et dolore magna aliqua.
           </p>
         </div>
 
 
-        <div className="mx-auto">
+        <div className="col-span-1 flex flex-col items-start">
           <h4 className="font-bold text-lg mb-2">Company</h4>
           <ul className="text-sm text-white">
-            <li>Address : 123 Fifth Avenue, New York - NY 10001, USA</li>
+            <li>Address : 123 Fifth Avenue, New York-1060, USA.</li>
             <li>Call Us : +(1600) 456 7890</li>
-            <li>Email : info@example.com</li>
-            <li>Mon-Sat : 8:00 AM - 18:00 PM</li>
+            <li>Email : yourid@example.com</li>
+            <li>Mon-Sat : 9:00 AM - 19:00 PM</li>
           </ul>
         </div>
 
 
-        <div className="mx-auto">
-          <h4 className=" font-bold text-lg">Pages</h4>
-          <ul className="text-sm white">
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> Home
-            </li>
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> Booking
-            </li>
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> Facilities
-            </li>
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> About Us
-            </li>
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> Location
-            </li>
-            <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-              <span className="text-[10px]">{">"}</span> Contact
-            </li>
-          </ul>
-        </div>
-
+   <div className="col-span-1 flex flex-col items-start">
+  <h4 className="font-bold text-lg">Pages</h4>
+  <ul className="text-sm white">
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer">
+        <span className="text-[10px]">{">"}</span> Home
+      </a>
+    </li>
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer">
+        <span className="text-[10px]">{">"}</span> Booking
+      </a>
+    </li>
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer"> 
+        <span className="text-[10px]">{">"}</span> Facilities
+      </a>
+    </li>
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer">
+        <span className="text-[10px]">{">"}</span> About Us
+      </a>
+    </li>
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform py-1">
+        <span className="text-[10px]">{">"}</span> Location
+      </a>
+    </li>
+    <li className="flex items-center">
+      <a href="#" className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform py-1">
+        <span className="text-[10px]">{">"}</span> Contact
+      </a>
+    </li>
+  </ul>
+</div>
   
-        <div className="flex flex-col items-end">
-          <h4 className="font-bold text-lg mb-2">Contact Us</h4>
-          <div className="flex gap-3">
-            <img className="w-5 h-5" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/google-logo--v1.png" alt="google-logo--v1"/>
-            <img className="w-5 h-5" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-new.png" alt="facebook-new"/>
-            <img className="w-5 h-5" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" alt="twitter"/>
-            <img className="w-5 h-5" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" alt="linkedin"/>
-          </div>
-        </div>
+        <div className="col-span-1 flex flex-col items-start">
+  <h4 className="font-bold text-lg mb-2">Contact Us</h4>
+  <div className="flex gap-3">
+    <a href="#" className="cursor-pointer">
+      <img className="w-5 h-5" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/google-logo--v1.png" alt="google-logo" />
+    </a>
+    <a href="#" className="cursor-pointer">
+      <img className="w-5 h-5" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-new.png" alt="facebook" />
+    </a>
+    <a href="#" className="cursor-pointer">
+      <img className="w-5 h-5" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" alt="twitter" />
+    </a>
+    <a href="#" className="cursor-pointer">
+      <img className="w-5 h-5" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" alt="linkedin" />
+    </a>
+  </div>
+</div>
+
 
       </div>
     </footer>

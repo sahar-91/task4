@@ -55,7 +55,7 @@ export default function FeedBack({ persons }) {
           <img 
             src={current.image} 
             
-            className="w-46.75 h-45.75 md:w-121 md:h-118.5 mx-auto object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
+            className="w-full h-45.75 md:h-118.5 mx-auto object-cover rounded-[20px] bg-[#00cc99] transition-all duration-500" 
           />
         </div>
 
