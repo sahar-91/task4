@@ -14,7 +14,7 @@ export default function HowWork() {
                 <p className="text-[#8A8A8A] w-full md:w-[60%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                 <button className="hidden md:inline-block bg-white border-[#00cc99] border-2 cursor-pointer h-10 px-6 text-[#00cc99] rounded hover:bg-[#00b386] hover:text-white transition duration-300">Learn More</button>
                 </div>
-                <div className="w-full px-10">
+                <div className="w-full">
             <Card array={array} />
             <div className="mt-6 md:hidden flex justify-center">
                 <button className="bg-white border-[#00cc99] border-2 cursor-pointer h-10 px-6 text-[#00cc99] rounded hover:bg-[#00b386] hover:text-white transition duration-300 my-8">Learn More</button>
